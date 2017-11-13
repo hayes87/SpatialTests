@@ -1,0 +1,13 @@
+package improbable.player;
+
+import "improbable/core/Quaternion.schema";
+import "improbable/standard_library.schema";
+import "improbable/vector3.schema";
+
+component PlayerTransform 
+{
+  id = 10020;
+  improbable.Vector3f position = 1;
+  improbable.core.Quaternion rotation = 2;
+  improbable.Vector3f speed = 3;
+}
